@@ -16,7 +16,7 @@ function Footer() {
           window.open(FooterLink);
         }}
       >
-        rahulvijay
+        Prakhargarg
       </div>
     </div>
   );

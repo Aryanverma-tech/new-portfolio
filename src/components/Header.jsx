@@ -41,11 +41,8 @@ const Header = () => {
       ${isScrolling ? "sticky" : ""}`}
     >
       <div className="cursor-none">
-        <img
-          className="h-[80px] w-[90px] bg-cover bg-no-repeat"
-          src={logo}
-          alt="logo"
-        />
+        <h1>Prakhar</h1>
+        
       </div>
       <nav className="hidden lg:block">
         <div className="cursor-pointer items-center space-x-4 sm:flex sm:flex-col sm:gap-4 lg:flex lg:flex-row lg:gap-6">
@@ -121,16 +118,7 @@ const Header = () => {
               Contact
             </p>
           </Link>
-          <div>
-            <button
-              onClick={() => {
-                window.open(resumeUrl);
-              }}
-              className="button-UI w-[120px] rounded-lg px-4 py-1.5 font-bold tracking-wider text-gray-900 shadow-xl hover:text-white"
-            >
-              Resume
-            </button>
-          </div>
+          
         </div>
       </nav>
       <div className="block lg:hidden">
@@ -226,14 +214,7 @@ const Header = () => {
               </p>
             </Link>
             <div>
-              <button
-                onClick={() => {
-                  window.open(resumeUrl);
-                }}
-                className="button-UI w-[120px] rounded-lg px-4 py-1.5 font-bold tracking-wider text-gray-900 shadow-xl hover:text-white"
-              >
-                Resume
-              </button>
+              
             </div>
           </div>
         </nav>
